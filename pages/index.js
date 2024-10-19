@@ -13,6 +13,13 @@ export default function Home() {
       <main className={styles.main}>
         {/* 히어로 섹션 */}
         <div className="hero">
+          <iframe
+            className="video-background"
+            src="https://youtu.be/cTLfLG1y7QM?si=MnKsBuNWVUvv6J0N"
+            frameBorder="0"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
           <div className="hero-overlay"></div>
           <div className="hero-content">
             <h1 className="hero-title">오늘의 뉴스</h1>
@@ -36,17 +43,19 @@ export default function Home() {
 
       <style jsx>{`
         .hero {
-          background-image: url('https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1');
-          background-size: cover;
-          background-position: center;
+          position: relative;
           width: 100%;
           height: 400px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: white;
-          text-align: center;
-          position: relative;
+          overflow: hidden;
+        }
+        .video-background {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          pointer-events: none; /* 클릭 방지 */
+          z-index: 0;
         }
         .hero-overlay {
           position: absolute;
