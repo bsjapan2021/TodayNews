@@ -26,6 +26,62 @@ export default function Home() {
               <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
             </div>
           </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 3</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 4</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 5</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 6</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 7</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 8</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 9</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
+          <div className="card">
+            <img src="https://via.placeholder.com/300x200" alt="뉴스 이미지" />
+            <div className="card-content">
+              <h2 className="card-title">뉴스 제목 10</h2>
+              <p className="card-description">이것은 뉴스 설명입니다. 더 많은 정보를 여기에 추가할 수 있습니다.</p>
+            </div>
+          </div>
           {/* 추가 카드를 여기에 추가하세요 */}
         </div>
       </main>
